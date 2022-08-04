@@ -1,6 +1,8 @@
 html {
 
-   padding: 100;
+   padding: 0px 100px;
+   margin: 0px 100px;
+   background-color: black;
 }
 
 .header-top {
@@ -159,7 +161,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 130px;
 }
 
 .quote {
@@ -169,7 +171,7 @@ h1 {
     font-size: 36px;
     font-weight: light;
     color: #1f2937;
-    max-width: 800px;
+    max-width: 850px;
     text-align: left;
 }
 
@@ -193,9 +195,12 @@ h1 {
 
     background-color: #3882F6;
     height: 150px;
-    width: 800px;
+    width: 1100px;
     margin: 125px 0px;
     border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .call-to-action {
@@ -203,17 +208,49 @@ h1 {
     display: flex;
     flex-direction: column;
     
-
 }
+
 .button-bottom {
     background-color: #3882F6;
     color: white;
+    font-weight: bold;
     border: 2px solid;
     border-radius: 10px;
     border-color: white;
-    padding: 10px;
-    height: 25px;
-    width: 100px;
+    padding: 8px;
+    height: 15px;
+    width: 110px;
+    text-align: center;
 
+}
+
+.head-bottom {
+
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.subtext-bottom {
+
+    color: #f9faf8;
+    font-size: 20px;
+    
+}
+
+.fooder {
+
+    display: flex;
+    background-color: #1f2937;
+    height: 100px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+
+    color: #f9faf8;
+    display: flex;
 
 }
